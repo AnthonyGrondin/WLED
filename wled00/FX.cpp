@@ -4227,3 +4227,13 @@ uint16_t WS2812FX::mode_aurora(void) {
   
   return FRAMETIME;
 }
+
+/*
+  Light dots fall to stack on each other and the stack falls when full
+  By Anthony Grondin
+*/
+uint16_t WS2812FX::mode_stacking(void) {
+
+  // Écrire la logique de l'effet de couleur ici
+  return FRAMETIME;
+}
